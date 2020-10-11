@@ -69,9 +69,9 @@ This homework is graded based on the following criteria:
 
   * Application's links all function correctly. (???)
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure. (done)
 
-  * Application's CSS file is properly commented.
+  * Application's CSS file is properly commented. (done)
 
 ### Deployment: 32%
 

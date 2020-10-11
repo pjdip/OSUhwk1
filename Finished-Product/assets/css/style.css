@@ -4,10 +4,14 @@
     margin: 0;
 }
 
+/* background color and font of the entire page are set */
 body {
     background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
+/* header is given its own background color, font families/color, and padding for visual appeal */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -15,33 +19,39 @@ header {
     color: #ffffff;
 }
 
+/* the big boy daddy heading of the page is given a size and set to display alongside other elements in the header */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* a portion of the primary heading is given a different color as a part of the logo */
 #seo {
     color: #d9dcd6;
 }
 
+/* navigation elements are given some spacing, font styles/size, and encouraged to hug the right side of the page */
 nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    float: right;
 }
 
+/* navigation elements given more spacing and set to display next to each other */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* links are given a font color and underline is removed */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* hero-image's size and position are defined and then filled with the image */
 .hero {
     height: 800px;
     width: 100%;
@@ -51,22 +61,23 @@ a {
     background-position: center;
 }
 
+/* main content area is defined with display info */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    font-size: 16px;
 }
 
+/* sections of the main area are given box parameters and font info plus a background color */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* main section images are told how to behave in their respective sections */
 .float-left {
     max-height: 200px;
     float: left;
@@ -79,39 +90,42 @@ main {
     margin-left: 25px;
 }
 
+/* headings in the main section are given size and spacing */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* aside area is given its size and spacing parameters and set to display to the right of the main sectoin */
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
     background-color: #2589bd;
 }
 
+/* sections of the aside are given box parameters and font color */
 .aside-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* headings in the aside section are given size and spacing */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* images in the aside section are given display and box parameters */
 .benefit-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* footer is given is cleared of the main/aside area and given some basic parameters */
 footer {
     padding: 30px;
     clear: both;
