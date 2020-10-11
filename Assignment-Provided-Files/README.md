@@ -77,7 +77,7 @@ This homework is graded based on the following criteria:
 
 * Application deployed at live URL.
 
-* Application loads with no errors.
+* Application loads with no errors. (done)
 
 * Application GitHub URL submitted.
 
@@ -85,17 +85,17 @@ This homework is graded based on the following criteria:
 
 ### Application Quality: 15%
 
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
+* Application resembles (at least 90%) screenshots provided in the homework instructions. (done)
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
+* Repository has a unique name. (done)
 
-* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for file structure and naming conventions. (done)
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. (done)
 
-* Repository contains multiple descriptive commit messages.
+* Repository contains multiple descriptive commit messages. (done)
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
