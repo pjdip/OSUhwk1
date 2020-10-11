@@ -41,6 +41,7 @@ Done
 
 WHEN I view the image elements
 THEN I find accessible alt attributes
+Done
 
 WHEN I view the heading attributes
 THEN they fall in sequential order
@@ -66,7 +67,7 @@ This homework is graded based on the following criteria:
 
 * Satisfies all of the above acceptance criteria plus the following code improvements:
 
-  * Application's links all function correctly.
+  * Application's links all function correctly. (???)
 
   * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 
@@ -80,7 +81,7 @@ This homework is graded based on the following criteria:
 
 * Application GitHub URL submitted.
 
-* GitHub repository that contains application code.
+* GitHub repository that contains application code. (done)
 
 ### Application Quality: 15%
 
