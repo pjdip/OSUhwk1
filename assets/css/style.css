@@ -1,17 +1,19 @@
+/* box model of all elements are set to a standard baseline */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* background color and font of the entire page are set */
+/* background color and font style/size of the body are set */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
 
-/* header is given its own background color, font families/color, and padding for visual appeal */
+/* header is given its own background color, font families/color,
+and padding for visual appeal */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -19,18 +21,20 @@ header {
     color: #ffffff;
 }
 
-/* the big boy daddy heading of the page is given a size and set to display alongside other elements in the header */
+/* the big boy daddy heading of the page is given a size and set to
+display alongside other elements in the header */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* a portion of the primary heading is given a different color as a part of the logo */
+/* a portion of the primary heading is given a different color to set it apart */
 #seo {
     color: #d9dcd6;
 }
 
-/* navigation elements are given some spacing, font styles/size, and encouraged to hug the right side of the page */
+/* navigation box is given some spacing, font styles/size,
+and encouraged to hug the right side of the page */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,7 +43,8 @@ nav {
     float: right;
 }
 
-/* navigation elements given more spacing and set to display next to each other */
+/* individual navigation elements given spacing within the navigation box
+and set to display next to each other */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -68,7 +73,8 @@ main {
     margin-left: 20px;
 }
 
-/* sections of the main area are given box parameters and font info plus a background color */
+/* sections of the main area are given box parameters
+and font info plus a background color */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,7 +90,10 @@ main {
     margin-right: 25px;
 }
 
-#float-right {
+/* even though there is only 1 float-right element,
+we will use a class instead of id in case we
+later decide to add more main-sections */
+.float-right {
     max-height: 200px;
     float: right;
     margin-left: 25px;
@@ -96,7 +105,8 @@ h2 {
     font-size: 36px;
 }
 
-/* aside area is given its size and spacing parameters and set to display to the right of the main sectoin */
+/* aside area is given its size and spacing parameters
+and set to float to the right of the main sectoin */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -125,7 +135,7 @@ h3 {
     max-width: 150px;
 }
 
-/* footer is given is cleared of the main/aside area and given some basic parameters */
+/* footer is cleared of the main/aside area and given some basic parameters */
 footer {
     padding: 30px;
     clear: both;

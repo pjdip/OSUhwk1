@@ -18,7 +18,7 @@ The only thing you will need to have installed in order to run the index.html fi
 
 ## Usage 
 
-In order to use this project, simply open the index.html in your favorite browser. There is limited functionality due to the fact that the website has no javascript to run behind the scenes. But isn't it so pretty? One thing you can do is click on the navigation bar items at the top of the page in order to be redirected to the corresponding sectinos. You can also resize your browser window to see how the page reacts.
+In order to use this project, simply open the index.html in your favorite browser. There is limited functionality due to the fact that the website has no javascript to run behind the scenes. But isn't it so pretty? One thing you can do is click on the navigation bar items at the top of the page in order to be redirected to the corresponding sectinos.
 
 The following image shows the nav bar :D
 ![this is the nav bar](./assets/images/see-the-nav-bar.png)
