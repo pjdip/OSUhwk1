@@ -2,6 +2,8 @@
 
 ## These are the files for the first OSU Web Development Bootcamp Homework Assignment
 
+Here is a [link](https://pjdip.github.io/Philip-DiPaula-OSU-bootcamp-hwk1/) to the live page :D
+
 The goals of this assignment were manifold. We wanted to make a website meet accessibility standards using html and get comfortable with styling a web page using css. In addition, we wanted to get comfortable using github and the terminal.
 
 * [Installation](#installation)
